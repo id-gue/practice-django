@@ -13,6 +13,8 @@ Anatomy of a Unit Test
 			assertTrue(x)
 			assertIsNot(a, b)
 			assertIsInstance(a, b)
+> (optional) msg argument: 	for giving additional information 
+							printing in the console
 
 
 

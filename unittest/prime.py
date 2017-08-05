@@ -1,5 +1,8 @@
 def is_prime(number):
 	"""Return True is *number* is prime."""
+	if number <= 1:
+		return False
+
 	for element in range(2, number):
 		if number % element == 0:
 			return False
