@@ -1,0 +1,42 @@
+unit tests
+
+= automated testing
+> a unit could be an entire module, a single class of function, 
+	or almost everything in between
+> unittest framework is build-in python
+
+Anatomy of a Unit Test
+> contains one or more assertions
+> The unittest.Testcase class contains a number of assert methods
+	(https://docs.python.org/3/library/unittest.html#assert-methods)
+	e.g. 	assertEqual(a, b)
+			assertTrue(x)
+			assertIsNot(a, b)
+			assertIsInstance(a, b)
+
+
+
+
+
+
+
+python syntax: __underscores__
+
+_single_leading_underscore  (weak 'internal use' indicator, 
+							can not be imported by from M import X)
+
+single_trailing_unterscore_ (convention to avoid conflicts 
+							with Python keyword)
+
+__double_leading_underscore (naming class attributes)
+
+__double_leading_and_traiding_underscore__ ('magic' objects or 
+							attributes that live in user-contolled name-spaces)
+
+
+
+
+
+
+
+
