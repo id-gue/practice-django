@@ -15,6 +15,7 @@ Anatomy of a Unit Test
 			assertIsInstance(a, b)
 > (optional) msg argument: 	for giving additional information 
 							printing in the console
+> 3rd-party test frameworks: py.test and nose
 
 
 

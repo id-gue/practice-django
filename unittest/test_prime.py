@@ -1,5 +1,5 @@
 import unittest
-from prime import is_prime
+from prime import is_prime, next_prime
 
 class PrimesTestCase(unittest.TestCase):
 	"""Test for 'primes.py'."""
