@@ -20,26 +20,3 @@ Anatomy of a Unit Test
 
 
 
-
-
-
-python syntax: __underscores__
-
-_single_leading_underscore  (weak 'internal use' indicator, 
-							can not be imported by from M import X)
-
-single_trailing_unterscore_ (convention to avoid conflicts 
-							with Python keyword)
-
-__double_leading_underscore (naming class attributes)
-
-__double_leading_and_traiding_underscore__ ('magic' objects or 
-							attributes that live in user-contolled name-spaces)
-
-
-
-
-
-
-
-

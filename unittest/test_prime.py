@@ -1,5 +1,6 @@
 import unittest
-from prime import is_prime, next_prime
+from prime import is_prime
+
 
 class PrimesTestCase(unittest.TestCase):
 	"""Test for 'primes.py'."""
@@ -15,6 +16,14 @@ class PrimesTestCase(unittest.TestCase):
 	def test_is_zero_not_prime(self):
 		"""Is zero correctly determined not to be prime?"""
 		self.assertFalse(is_prime(0))
+
+	def test_is_one_not_prime(self):
+		"""Is one correctly determined not to be prime?"""
+		self.assertFalse(is_prime(1))
+
+	def test_is_9973_prime(self):
+		"""Is 9973 correctly determined to be prime?"""
+		self.assertTrue(is_prime(9973))
 
 	def test_negative_number(self):
 		"""Is a negative number correctly determined not to be prime"""
