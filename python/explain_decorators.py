@@ -25,3 +25,18 @@ def another_function(html):
 
 # test my decorator
 print(another_function('some text'))
+
+
+# code from ana in Python2
+def wrap_it(f):
+    def inner(*args, **kwargs):
+        return 'bread ' + ' tomato ' + f(*args, **kwargs) + ' lettuce' + ' bread'
+
+    return inner
+
+@wrap_it
+def make_sandwich(ingr='ham'):
+    return ingr
+
+print make_sandwich()
+print make_sandwich('eggs')
