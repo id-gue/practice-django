@@ -1,2 +1,6 @@
 .DS_Store
 *.pyc
+
+assertions.py
+decorators.py
+python/.ipynb_checkpoints/
